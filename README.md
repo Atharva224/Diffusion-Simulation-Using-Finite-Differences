@@ -1,30 +1,39 @@
-# Diffusion-Simulation-Using-Finite-Differences
-Finite Difference Method (FDM) simulation for diffusion. Includes tasks, report, and Python code (Diffusion_Final.py) for solving diffusion equations with Dirichlet &amp; Neumann BCs. Implements matrix assembly, numerical solving, and visualization. Covers Fick’s laws, discretization, convergence analysis, and performance optimization.
+# 2D Diffusion Simulation using Finite Differences 🌊🧮
 
+Simulation of stationary diffusion in a 2D domain using the Finite Difference Method (FDM). This project solves anisotropic and isotropic diffusion equations under Dirichlet and Neumann boundary conditions. Implemented in Python using sparse matrix solvers and visualized with Matplotlib.
 
+---
 
-This repository contains the tasks, report, and Python implementation for Materials Simulation Practical No.1, focusing on the theoretical foundations and numerical simulation of diffusion processes using the finite difference method (FDM).
+## 📑 Contents
 
-📄 Contents
-Practical Task Sheet (Practical 1 - Diffusion and FD.pdf): Provides the problem statement, governing equations, discretization, boundary conditions, and numerical implementation requirements.
-Report (diffusion_FD_report.pdf): Documents the theoretical derivations, numerical discretization, implementation, results, and analysis of the diffusion simulation.
-Python Code (Diffusion_Final.py): Implements the finite difference method for solving the diffusion equation with different boundary conditions and grid resolutions.
+- `Diffusion_Final.py` – Python implementation for solving and visualizing 2D diffusion
+- `diffusion_FD_report.pdf` – Report with theoretical derivations, matrix formulation, and results
+- `Practical 1 - Diffusion and FD.pdf` – Course sheet with mathematical background and tasks
 
-📌 Key Topics
-Fick’s Laws of Diffusion,
-Anisotropic and Isotropic Diffusion Modeling,
-Finite Difference Discretization,
-Dirichlet and Neumann Boundary Conditions,
-Numerical Solution of Linear Systems,
-Comparison of Numerical and Analytical Solutions,
-Convergence Analysis and Performance Considerations
+---
 
-🚀 Implementation Details
-The Python script Diffusion_Final.py includes:
-Discretization of the diffusion equation using finite differences.
-Matrix assembly and solving for steady-state diffusion.
-Application of Dirichlet and Neumann boundary conditions.
-Visualization of results including concentration profiles and error analysis.
-Performance optimization and convergence testing.
-This project involves deriving diffusion equations, implementing a numerical solver, and analyzing results for different boundary conditions.
+## 🧠 Key Features
 
+- ✅ Handles both Dirichlet and Neumann boundary conditions
+- ✅ Grid discretization with customizable size
+- ✅ Supports varying flux and concentration boundary setups
+- ✅ Visualizes concentration heatmaps and convergence
+- ✅ Validates numerical results against analytical solutions
+
+---
+
+## 💡 Test Cases
+
+- **Test 1**: Constant boundary concentrations → Flat profile
+- **Test 2**: Linear gradient between top and bottom
+- **Test 3**: Variable ρ_upper and ρ_lower pairs
+- **Test 4**: Numerical vs analytical comparison and convergence plot
+- **Flux Studies**: Equal and varied flux in/out with symmetric boundary values
+
+---
+
+## 🚀 How to Run
+
+1. Install required packages:
+```bash
+pip install numpy matplotlib scipy
