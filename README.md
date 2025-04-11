@@ -11,12 +11,12 @@ Report (diffusion_FD_report.pdf): Documents the theoretical derivations, numeric
 Python Code (Diffusion_Final.py): Implements the finite difference method for solving the diffusion equation with different boundary conditions and grid resolutions.
 
 📌 Key Topics
-Fick’s Laws of Diffusion
-Anisotropic and Isotropic Diffusion Modeling
-Finite Difference Discretization
-Dirichlet and Neumann Boundary Conditions
-Numerical Solution of Linear Systems
-Comparison of Numerical and Analytical Solutions
+Fick’s Laws of Diffusion,
+Anisotropic and Isotropic Diffusion Modeling,
+Finite Difference Discretization,
+Dirichlet and Neumann Boundary Conditions,
+Numerical Solution of Linear Systems,
+Comparison of Numerical and Analytical Solutions,
 Convergence Analysis and Performance Considerations
 
 🚀 Implementation Details
