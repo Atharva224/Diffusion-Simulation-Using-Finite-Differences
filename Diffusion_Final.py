@@ -67,7 +67,7 @@ class DiffusionSolver2D:
         
         return A.tocsc(), b
     
-Keeping the original work safe. Email atharvasinnarkar@gmail.com for the full code file and mention the proper usecase.
+# Keeping the original work safe. Email atharvasinnarkar@gmail.com for the full code file and mention the proper usecase.
 
 
 
